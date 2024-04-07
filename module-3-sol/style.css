@@ -1,0 +1,71 @@
+    .container{
+        margin-top:20px;   
+    }
+#content{
+background-color: #0d98ba;
+margin: 5px;
+padding: 20px;
+border-color: #0d98ba;
+}
+div .title{   
+    padding: 5px;
+    margin-left: 70%;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    font-size: 125%;
+}
+#chicken,#beef,#sushi{
+    background-color: #0d98ba;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 3px solid black; 
+}
+div #chicken div{
+    background-color: pink;
+}
+div #beef div{
+background-color: red;
+}
+div #sushi div{
+background-color: yellow;
+}
+body{
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+/* Custom CSS for hiding and showing the menu icon */
+@media (min-width: 768px) {
+    .visible-xs {
+      display: none;
+    }
+  }
+  @media(min-width:767px)and (max-width:1200px){
+    div .title{
+        margin-left:70%;
+    }
+  }
+ /* Custom styles */
+@media (min-width: 992px) {
+    /* Hide the dropdown menu on larger screens */
+    .d-lg-none {
+      display: none !important;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    /* Style the dropdown menu for mobile */
+    .dropdown-menu {
+      width: 100%;
+      background-color: #f8f9fa; /* Light gray background */
+      border: none;
+    }
+  }
+  .navbar-brand{
+    margin:10px;
+  }
+  
