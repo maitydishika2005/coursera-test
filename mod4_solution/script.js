@@ -57,9 +57,9 @@ toLowerCase()
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (firstletter.toLowerCase()=='j') {
-    console.log("Good BYe "+ names[i]);
+     byeSpeaker.speak(names[i]);
   } else {
-    console.log("Hello "+ names[i]);
+    helloSpeaker.speak(names[i]);
   }
 }
 })();
